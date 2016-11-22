@@ -1,5 +1,5 @@
 {
-  "name": "hal8000",
+  "name": "botka",
   "version": "0.6.0",
   "private": true,
   "authors": [
@@ -15,18 +15,8 @@
     "hubot-help": "^0.1.1",
     "hubot-incoming-webhook": "^1.0.1",
     "hubot-irc": "^0.2.9",
-    "hubot-openassets": "^0.9.0",
-    "hubot-plusplus": "^1.1.5",
-    "hubot-read-tweet": "0.0.2",
-    "hubot-redis-brain": "0.0.2",
+    "hubot-xmpp": "^0.2.4",
     "hubot-remotestorage-logger": "^0.4.0",
-    "hubot-rss-reader": "git://github.com/67P/hubot-rss-reader.git",
-    "hubot-rules": "^0.1.0",
-    "hubot-scripts": "^2.5.16",
-    "hubot-seen": "https://github.com/67P/hubot-seen.git#fix_debug",
-    "hubot-shipit": "^0.2.0",
-    "hubot-tell": "^1.2.3",
-    "hubot-yubikey-invalidation": "0.0.3",
     "request": "2.30.0"
   },
   "engines": {

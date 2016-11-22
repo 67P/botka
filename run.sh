@@ -4,7 +4,7 @@
 
 HUBOT_IRC_SERVER="irc.freenode.net" \
 HUBOT_IRC_ROOMS="#kosmos-dev,#kosmos-random" \
-HUBOT_IRC_NICK="hal7000" \
+HUBOT_IRC_NICK="botka_dev" \
 HUBOT_IRC_UNFLOOD="300" \
 HUBOT_RSS_PRINTSUMMARY="false" \
 HUBOT_RSS_IRCCOLORS="true" \
@@ -16,9 +16,6 @@ RS_LOGGER_USER="kosmos@5apps.com" \
 RS_LOGGER_TOKEN="change-me" \
 RS_LOGGER_SERVER_NAME="freenode" \
 RS_LOGGER_PUBLIC="true" \
-OA_BOT_KEYWORD="kreditz" \
-OA_ASSET_FROM_ADDRESS="akRWZJMETdM2U5UGKadKhv1PAj2npoGja1m" \
-OA_ASSET_ID="AbDn6L2AUGnDreUuNkGFEqcxnsoUP4HCjm" \
 WEBHOOK_TOKEN="kosmosplusplus" \
 HUBOT_YUBIKEY_API_ID="change-me" \
-bin/hubot -a irc --name hal7000
+bin/hubot -a irc --name botka_dev

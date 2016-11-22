@@ -1,16 +1,4 @@
 [
-  "hubot-auth",
   "hubot-help",
-  "hubot-read-tweet",
-  "hubot-redis-brain",
-  "hubot-rules",
-  "hubot-shipit",
-  "hubot-plusplus",
-  "hubot-tell",
-  "hubot-seen",
-  "hubot-rss-reader",
-  "hubot-remotestorage-logger",
-  "hubot-openassets",
-  "hubot-incoming-webhook",
-  "hubot-yubikey-invalidation"
+  "hubot-remotestorage-logger"
 ]
