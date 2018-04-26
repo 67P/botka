@@ -1,9 +1,8 @@
-# cp ~/src/remotestorage/modules/src/chat-messages.js ~/src/kosmos/hubot-remotestorage-logger/lib/chat-messages.es6
-# rm -rf node_modules/hubot-openassets
-# npm install
-
+#!/bin/bash
+PORT=4242 \
+HUBOT_LOG_LEVEL="debug" \
 HUBOT_IRC_SERVER="irc.freenode.net" \
-HUBOT_IRC_ROOMS="#kosmos-dev,#kosmos-random" \
+HUBOT_IRC_ROOMS="#kosmos-random" \
 HUBOT_IRC_NICK="botka_dev" \
 HUBOT_IRC_UNFLOOD="300" \
 HUBOT_RSS_PRINTSUMMARY="false" \
@@ -17,5 +16,7 @@ RS_LOGGER_TOKEN="change-me" \
 RS_LOGGER_SERVER_NAME="freenode" \
 RS_LOGGER_PUBLIC="true" \
 WEBHOOK_TOKEN="kosmosplusplus" \
-HUBOT_YUBIKEY_API_ID="change-me" \
+VAPID_SUBJECT="https://example.com" \
+VAPID_PUBLIC_KEY="" \
+VAPID_PRIVATE_KEY="" \
 bin/hubot -a irc --name botka_dev

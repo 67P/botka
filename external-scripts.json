@@ -1,4 +1,6 @@
 [
   "hubot-help",
-  "hubot-remotestorage-logger"
+  "hubot-remotestorage-logger",
+  "hubot-redis-brain",
+  "hubot-web-push-notifications"
 ]
