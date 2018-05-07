@@ -14,10 +14,10 @@
     "hubot-auth": "^1.2.0",
     "hubot-help": "^0.1.1",
     "hubot-incoming-webhook": "^1.0.1",
-    "hubot-irc": "github:67P/hubot-irc#feature/get_channel_data",
+    "hubot-irc": "github:67P/hubot-irc#dev",
     "hubot-redis-brain": "~1.0.0",
-    "hubot-remotestorage-logger": "^0.6.1",
-    "hubot-web-push-notifications": "^1.0.1",
+    "hubot-remotestorage-logger": "^0.7.0",
+    "hubot-web-push-notifications": "^1.1.0",
     "hubot-xmpp": "^0.2.5",
     "request": "2.30.0"
   },
