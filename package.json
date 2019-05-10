@@ -18,7 +18,7 @@
     "hubot-redis-brain": "~1.0.0",
     "hubot-remotestorage-logger": "^0.7.1",
     "hubot-web-push-notifications": "^1.2.0",
-    "hubot-xmpp": "^0.2.5",
+    "hubot-xmpp": "github:67P/hubot-xmpp#dev",
     "request": "2.88.0"
   }
 }
